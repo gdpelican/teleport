@@ -10,7 +10,7 @@ You're done!
 
 ### Usage
 
-In order to teleport, simple visit the route `/teleport/search?q=<your_query_here>`.
+In order to teleport, simply visit the route `/teleport/search?q=<your_query_here>`.
 Teleport will automatically pull up the most relevant topic search result and redirect you there. :zap:
 
 ### Contributing
