@@ -26,7 +26,7 @@ after_initialize do
 
   class ::Teleport::SearchController < ApplicationController
     layout 'no_ember'
-    skip_before_filter :check_xhr
+    skip_before_action :check_xhr
 
     def search
       raise Discourse::NotFound unless search_results && search_results.posts.any?
